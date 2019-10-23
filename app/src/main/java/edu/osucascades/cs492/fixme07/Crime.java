@@ -9,6 +9,7 @@ public class Crime {
     private Date mDate;
     private boolean mSolved;
     private boolean mPoliceRequired;
+    private UUID mId;
 
     public boolean isPoliceRequired() {
         return mPoliceRequired;
